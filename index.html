@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body style="color: black">
+    <nav>
+      <section class="NavBar-Container">
+        <div class="navBar-logo-container">
+          <a href="index.html" title="The future of plant science">
+            <img
+              class="navBar-logo"
+              src="assets/img/ceras-agro-logo.png"
+              alt="Logo"
+            />
+          </a>
+        </div>
+
+        <div class="navBar-links" id="navLinks">
+          <div class="navBar-links-container">
+            <a href="ourstory.html"><h6>Our Story</h6></a>
+            <a href="aboutus.html"><h6>About us</h6></a>
+            <a href="contact-us.html"><h6>Contact Us</h6></a>
+            <a href="blog.html"><h6>Blog</h6></a>
+          </div>
+        </div>
+
+        <button class="hamburger" id="menuBtn" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </section>
+    </nav>
+    <section class="HomePage-Container">
+      <div class="homepage-imagecontainer">
+        <div class="homepage-text-container">
+          <h2>The future of plant science...</h2>
+          <p>
+            Introducing Ceres Agros, India's pioneering 100% water-soluble
+            fertilizer solution. Revolutionizing agriculture with innovative
+            products that boost yields, improve soil health, and drive
+            sustainability.
+          </p>
+
+          <div class="homepage-button-container">
+            <button>Read more</button>
+            <!-- <button>Get Started</button> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="homepage-counter-container">
+      <div class="homepage-counter">
+        <h3 class="counter">200+</h3>
+        <h2 class="counter-heading">Formulations</h2>
+        <p class="counter-para">
+          Scientifically crafted NPK formulations powered by advanced MET
+          (MICROPHASE ENRICHMENT TECHNOLOGY)
+        </p>
+      </div>
+    </section>
+
+    <section class="frontCards-container">
+      <div
+        class="flip-card"
+        :class="{ flipped: isFlipped }"
+        @click="isFlipped = !isFlipped"
+      >
+        <div class="flip-card-inner">
+          <!-- Front Side -->
+          <div class="flip-card-front">
+            <div class="frontcard-fistlook">
+              <div class="frontcard-fistlook-text">
+                <h3 class="frontcard-fistlook-heading">
+                  Reimagine Your Harvest
+                </h3>
+                <p class="frontcard-firstLook-para">
+                  All the fertilizer solutions you need for a thriving harvest
+                  have been re-imagined with Ceres Agros innovative approach,
+                  bringing new life to your crops and fields.
+                </p>
+              </div>
+              <div class="frontcard-secondLook">
+                <h3 class="frontcard-secondlook-heading">Discover More</h3>
+                <p class="frontcard-secondlook-para">
+                  Accelerate Your Agricultural Success with Ceres Agros
+                  Ready-to-Use Fertilizer Solutions - From Soil Prep to Harvest,
+                  We've Got You Covered.
+                </p>
+                <button class="frontcard-secondlook-button">
+                  Check Out Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Back Side -->
+          <div class="flip-card-back">
+            <div class="backcard-content">
+              <h3>Why Choose Ceres Agros?</h3>
+              <ul>
+                <li>100% water-soluble fertilizers</li>
+                <li>Microphase Enrichment Technology (MET)</li>
+                <li>Boosts soil health and crop yield</li>
+                <li>Expert support and reliable delivery</li>
+                <li>Trusted by thousands of farmers</li>
+              </ul>
+              <button class="frontcard-secondlook-button">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="front-rightCard-continer">
+        <div class="frontrightcard-top">
+          <div class="frontrightcard-top-one">
+            <h3>Boost Your Yields</h3>
+            <p>
+              Unlock the full potential of your crops with our high-quality,
+              nutrient-rich fertilizers designed for optimal growth.
+            </p>
+          </div>
+          <div class="frontrightcard-top-two">
+            <h3>Scientifically Formulated</h3>
+            <p>
+              Our fertilizers are developed through rigorous research and
+              testing to provide the precise balance of nutrients your plants
+              need.
+            </p>
+          </div>
+        </div>
+        <div class="frontrightcard-bottom">
+          <div class="frontrightcard-bottom-one">
+            <h3>Invest in Growth</h3>
+            <p>
+              Maximize your return on investment with our cost-effective
+              fertilizers that deliver exceptional results and long-term soil
+              health.
+            </p>
+          </div>
+          <div class="frontrightcard-bottom-two">
+            <h3>Reliable Delivery & Support</h3>
+            <p>
+              We ensure timely delivery of our fertilizers and provide expert
+              support to help you achieve your farming goals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="PageThree-container">
+      <div class="pageThree-image-shade">
+        <div class="pageThree-text-container">
+          <div class="pageThree-innertext-container">
+            <h3>Built by soil health innovators.</h3>
+            <h2>We know how to make soil healthy for your crops</h2>
+            <p>
+              We're dedicated to understanding what makes soil thrive. Our
+              innovations are all about creating the best foundation for your
+              crops to flourish
+            </p>
+            <button>Know more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="homePageFour-container">
+      <div class="homePageFour-text-container">
+        <h4 class="homePageFour-text-container-h4">Boost Production</h4>
+        <h2 class="homePageFour-text-container-h2">
+          ADVANCED NPK SPECIALITY BLENDS WITH MET
+        </h2>
+        <p class="homePageFour-text-container-p">
+          Turbocharge crops with MET for improved soil health consistent higher
+          yields - seasons after seasons with our 100% water-soluble
+          fertilisers.
+        </p>
+      </div>
+      <div class="homePageFour-image-containers">
+        <div class="homePageFour-images">
+          <div class="homepageFour-image-topc">
+            <a href="ourstory.html">
+              <img src="assets/img/logo-one.jpg" alt="Ceres Agros Fertilizer" />
+            </a>
+            <a href="aboutus.html">
+              <img src="assets/img/logo-second.jpg" alt="Ceres Agros Fertilizer" />
+            </a>
+          </div>
+
+          <div class="homepageFour-image-bottomc">
+            <a href="contact-us.html">
+              <img src="assets/img/logo-Three.jpg" alt="Ceres Agros Fertilizer" />
+            </a>
+            <a href="blog.html">
+              <img src="assets/img/logo-Four.jpg" alt="Ceres Agros Fertilizer" />
+            </a>
+          </div>
+        </div>
+        <div class="homepageFour-para-conatiner">
+          <h3>
+            The science of smiles: How our innovative formulas create healthier
+            crops and happier farmers.
+          </h3>
+          <p>
+            Explore these possibilities to see our business impact. Let's
+            prioritize your farm's bottom line over pure aesthetics.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="homepagefive-container">
+    <div class="homepagefive-image-container">
+      <div class="homepagefive-text-container">
+        <div class="text-overlay-fivecontainer">
+          <h3>Why Choose Ceres Agros for Your Fertilizer Needs?</h3>
+          <p>
+            Ceres Agros offers innovative, sustainable fertilizer solutions that boost crop yields,
+            improve soil health, and support eco-friendly agriculture. With expert guidance and
+            proven results, we're your partner for agricultural success.
+          </p>
+          <!-- <button>Join Our Family</button> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other content remains unchanged -->
+  <section class="location-container">
+    <div class="location-inner-container">
+      <h3 class="location-heading">Available on these Locations</h3>
+      <div class="locationimage_div">
+        <img src="assets/img/telangana.jpeg" alt="telangana" />
+        <img src="assets/img/chennai.jpeg" alt="chennai" />
+      </div>
+    </div>
+  </section>
+
+  <section class="hompage_last_container">
+    <div class="lastcontent-container">
+    <div class="lastcontainer-text">   
+      <h3>Thank you for your support!</h3>
+      <p>We deliver the best agriculture products</p>
+    </div>
+    <div class="lastcontainer-buttons">
+      <button class="button-one">Tweet</button>
+      <button class="button-two">Tube</button>
+      <button class="button-three">Insta</button>
+    </div>
+  </div>
+  </section>
+    <footer>
+      <div class="footer-conatiner">
+        <div>
+          <!-- <img :src="logo" alt="" /> -->
+          <a href="index.html"
+            ><img src="assets/img/ceras-agro-logo.png" alt="Logo"
+          /></a>
+        </div>
+        <div class="footer-links">
+          <a href="ourstory.html"><h6>Our Story</h6></a>
+          <a href="aboutus.html"><h6>About us</h6></a>
+          <a href="contact-us.html"><h6>Contact Us</h6></a>
+          <a href="blog.html"><h6>Blog</h6></a>
+        </div>
+      </div>
+      <div class="disclamer">
+        <!-- <p>All rights reserved. Copyright © 2025 Ceres Agros</p> -->
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .frontCards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 40px;
+  }
+  .flip-card {
+    position: relative;
+    width: 350px;
+    height: 450px;
+    cursor: pointer;
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    background-color: #4caf50;
+    background-image: url("assets/img/balcony-garden-1.jpeg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 18px;
+    box-sizing: border-box;
+    padding: 0px 10px !important;
+    /* position: relative; */
+  }
+
+  /* Optional: Add a dark overlay for better text readability */
+  .flip-card-front::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(
+      76,
+      175,
+      80,
+      0.5
+    ); /* Green overlay, adjust opacity as needed */
+    border-radius: 12px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* Ensure content is above overlay */
+  .frontcard-fistlook,
+  .frontcard-fistlook-text,
+  .frontcard-secondLook {
+    position: relative;
+    z-index: 2;
+  }
+  .flip-card-back {
+    transform: rotateY(180deg);
+    background-image: url("assets/img/background-pic-g2.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Dark overlay effect */
+  .flip-card-back::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(49, 154, 28, 0.6); /* Adjust opacity for darkness */
+    border-radius: 12px;
+    z-index: 1;
+  }
+
+  /* Ensure content is above overlay */
+  .backcard-content {
+    position: relative;
+    z-index: 2;
+  }
+  .front-rightCard-continer {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 600px;
+    color: grey;
+    /* background-color: #344767; */
+  }
+  .front-rightCard-continer h3 {
+    color: #344767;
+    font-weight: 700;
+  }
+  .frontrightcard-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .frontrightcard-top-one,
+  .frontrightcard-top-two {
+    width: 280px;
+    /* height: 200px; */
+  }
+  .frontrightcard-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .frontrightcard-bottom-one,
+  .frontrightcard-bottom-two {
+    width: 280px;
+    /* height: 200px; */
+  }
+  @media (max-width: 900px) {
+    .frontCards-container {
+      flex-direction: column !important;
+      align-items: stretch !important;
+      gap: 32px;
+      padding: 16px 0;
+    }
+    .flip-card {
+      width: 100% !important;
+      max-width: none !important;
+      height: 400px !important;
+      margin: 0 auto 24px auto;
+      overflow: hidden; /* Add this */
+    }
+    .flip-card-inner {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    .front-rightCard-continer {
+      width: 100% !important;
+      gap: 24px !important;
+      padding: 0 8px;
+    }
+    .frontrightcard-top,
+    .frontrightcard-bottom {
+      flex-direction: column !important;
+      gap: 18px !important;
+      width: 100% !important;
+      align-items: stretch !important;
+    }
+    .frontrightcard-top-one,
+    .frontrightcard-top-two,
+    .frontrightcard-bottom-one,
+    .frontrightcard-bottom-two {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .flip-card {
+      width: 100% !important;
+      max-width: none !important;
+      padding: 12px 4px;
+      overflow: hidden; /* Add this */
+    }
+    .flip-card-inner {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    .front-rightCard-continer {
+      padding: 0 4px;
+      gap: 16px !important;
+    }
+    .frontcard-fistlook-text,
+    .frontcard-secondLook,
+    .frontrightcard-top-one,
+    .frontrightcard-top-two,
+    .frontrightcard-bottom-one,
+    .frontrightcard-bottom-two {
+      font-size: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .frontcard-secondlook-button {
+      width: 100%;
+      font-size: 1rem;
+      padding: 10px 0;
+    }
+  }
+
+  .frontcard-fistlook {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .frontcard-fistlook-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .frontcard-fistlook-heading {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .frontcard-firstLook-para {
+    font-size: 1.05rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  .frontcard-secondLook {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+  .frontcard-secondlook-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .frontcard-secondlook-para {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  .frontcard-secondlook-button {
+    margin-top: 8px;
+    background: #fff;
+    color: #4caf50;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .frontcard-secondlook-button:hover {
+    background: #4caf50;
+    color: #fff;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 900px) {
+    .flip-card-front {
+      padding: 18px 8px;
+    }
+    .frontcard-fistlook-heading {
+      font-size: 1.2rem;
+    }
+    .frontcard-firstLook-para,
+    .frontcard-secondlook-para {
+      font-size: 0.98rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .flip-card-front {
+      padding: 8px 2px;
+    }
+    .frontcard-fistlook-heading {
+      font-size: 1rem;
+    }
+    .frontcard-secondlook-heading {
+      font-size: 0.95rem;
+    }
+    .frontcard-firstLook-para,
+    .frontcard-secondlook-para {
+      font-size: 0.95rem;
+    }
+  }
+
+  .flipped .flip-card-front {
+    display: none;
+  }
+  body{
+    background-color: whitesmoke;
+  }
+  .HomePage-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: whitesmoke;
+    margin-bottom: 40px;
+    /* padding: 20px !important; */
+  }
+  .homepage-imagecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url("assets/img/home-card-pic1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .homepage-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    width: 80%;
+    padding: 20px;
+  }
+  .homepage-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    /* padding-left: 20px; */
+  }
+  .homepage-button-container button {
+    /* width: 300px !important; */
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 22px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  .homepage-button-container button:hover {
+    background: #388e3c;
+    color: #fff;
+  }
+  .homepage-text-container h2 {
+    color: #388e3c;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    background: transparent;
+    /* Gradient text effect */
+    background-image: linear-gradient(90deg, #e8f5e9 60%, #4caf50 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    transition: background 0.3s;
+  }
+  .homepage-text-container p {
+    width: 100%;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 12px;
+    line-height: 1.6;
+    /* background: #fff; */
+    border-left: 6px solid #4caf50;
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.06);
+    transition: border-color 0.3s;
+  }
+  .homepage-counter-container {
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 40px;
+  }
+  .homepage-counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+  }
+  .counter {
+    color: #4caf50;
+    font-weight: 800;
+  }
+  .counter-heading {
+    color: #388e3c;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    background: linear-gradient(90deg, #e8f5e9 60%, #4caf50 100%);
+    padding: 6px 14px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.08);
+  }
+  .counter-para {
+    color: #344767;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    background: #fff;
+    border-left: 6px solid #4caf50;
+    padding: 10px 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.06);
+  }
+
+  @media (max-width: 900px) {
+    .HomePage-Container,
+    .homepage-imagecontainer {
+      height: auto !important;
+      min-height: 300px;
+      padding: 24px 0;
+    }
+    .homepage-text-container {
+      width: 98vw !important;
+      gap: 14px !important;
+      padding: 0 10px;
+    }
+    .homepage-text-container h2 {
+      font-size: 1.7rem !important;
+      padding: 4px 8px;
+    }
+    .homepage-text-container p {
+      width: 100% !important;
+      font-size: 0.9rem !important;
+      padding: 8px 10px;
+      border-left-width: 4px;
+    }
+    .homepage-button-container {
+      width: 100% !important;
+      gap: 10px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .homepage-counter-container {
+      height: auto !important;
+      padding: 18px 0;
+    }
+    .homepage-counter {
+      width: 98vw !important;
+      padding: 0 10px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .HomePage-Container,
+    .homepage-imagecontainer {
+      padding: 12px 0 !important;
+      min-height: 120px;
+    }
+    .homepage-text-container {
+      width: 100vw !important;
+      padding: 0 20px;
+      font-size: 1rem;
+    }
+    .homepage-text-container h2 {
+      font-size: 1.5rem !important;
+      padding: 2px 4px;
+    }
+    .homepage-text-container p {
+      font-size: 0.82rem !important;
+      padding: 6px 4px;
+      border-left-width: 3px;
+    }
+    .homepage-counter {
+      width: 100vw !important;
+      padding: 0 4px;
+    }
+    .counter-heading {
+      font-size: 1rem !important;
+    }
+    .counter-para {
+      font-size: 0.95rem !important;
+    }
+  }
+
+  .PageThree-container {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .pageThree-image-shade {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* ✅ Overlay pseudo-element on the image wrapper */
+  .pageThree-text-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with 0.8 opacity */
+    border-radius: 20px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .pageThree-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 80%;
+    background-image: url("assets/img/vue-mk-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-radius: 20px;
+    position: relative; /* So content is above the overlay */
+    z-index: 2;
+  }
+  .pageThree-innertext-container {
+    z-index: 99999;
+    padding: 30px;
+  }
+  h3 {
+    font-size: 25px;
+    /* color: whitesmoke !important; */
+  }
+  h2 {
+    font-size: 35px;
+    /* color: whitesmoke !important; */
+    font-weight: 700;
+  }
+  p {
+    /* color: whitesmoke !important; */
+    font-size: 21px;
+  }
+  button {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    margin-top: 20px;
+  }
+  button:hover {
+    background-color: #388e3c;
+    color: white;
+    cursor: pointer;
+  }
+
+  @media (max-width: 900px) {
+    .PageThree-container {
+      padding: 10px !important;
+    }
+    .pageThree-text-container {
+      width: 98vw !important;
+      height: 220px !important;
+      padding: 0 8px;
+    }
+    .pageThree-innertext-container {
+      padding: 16px !important;
+    }
+    h2 {
+      font-size: 1.3rem !important;
+    }
+    h3 {
+      font-size: 1.1rem !important;
+    }
+    p {
+      font-size: 1rem !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .pageThree-text-container {
+      width: 100vw !important;
+      height: max-content !important;
+      padding: 10px 10px;
+    }
+    .pageThree-innertext-container {
+      padding: 8px !important;
+    }
+    h2 {
+      font-size: 1.5rem !important;
+    }
+    h3 {
+      font-size: 0.85rem !important;
+    }
+    p {
+      font-size: 0.75rem !important;
+    }
+  }
+  .homePageFour-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #344767;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .homePageFour-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+  }
+  .homePageFour-text-container-h4 {
+    color: white;
+    background-color: #0f9d58;
+    padding: 5px;
+    width: 280px !important;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .homePageFour-text-container-h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+  .homePageFour-text-container-p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555d6c;
+  }
+  .homePageFour-image-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: tomato; */
+    gap: 10%;
+  }
+  .homePageFour-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    gap: 20px;
+    /* background-color: violet; */
+  }
+  .homepageFour-image-topc,
+  .homepageFour-image-bottomc {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+  }
+  .homepageFour-image-topc img,
+  .homepageFour-image-bottomc img {
+    width: 200px;
+  }
+  .homepageFour-para-conatiner {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #555d6c;
+    /* background-color: #0f9d58; */
+  }
+  .homepageFour-para-conatiner h3 {
+    color: #344767;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  @media (max-width: 1100px) {
+    .homepageFour-para-conatiner {
+      width: 370px;
+    }
+  }
+  @media (max-width: 900px) {
+    .homePageFour-text-container {
+      width: 98vw !important;
+      padding: 0 10px;
+    }
+    .homePageFour-text-container-h2 {
+      font-size: 1.3rem !important;
+      margin: 12px 0;
+    }
+    .homePageFour-text-container-h4 {
+      font-size: 1rem !important;
+      width: 280px !important;
+      padding: 4px;
+    }
+    .homePageFour-image-containers {
+      flex-direction: column !important;
+      gap: 32px !important;
+      align-items: center !important;
+      width: 100% !important;
+    }
+    .homePageFour-images {
+      width: 100% !important;
+      gap: 16px !important;
+    }
+    .homepageFour-image-topc,
+    .homepageFour-image-bottomc {
+      width: 100% !important;
+      justify-content: center !important;
+      gap: 16px;
+    }
+    .homepageFour-image-topc img,
+    .homepageFour-image-bottomc img {
+      width: 120px !important;
+      max-width: 40vw;
+      height: auto;
+    }
+    .homepageFour-para-conatiner {
+      width: 98vw !important;
+      padding: 0 10px;
+      text-align: left;
+    }
+    .homepageFour-para-conatiner h3 {
+      font-size: 1.1rem !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .homePageFour-text-container {
+      width: 100vw !important;
+      padding: 0 4px;
+    }
+    .homePageFour-text-container-h2 {
+      font-size: 1rem !important;
+    }
+    .homePageFour-text-container-h4 {
+      font-size: 0.95rem !important;
+      width: 200px !important;
+      padding: 3px;
+    }
+    .homepageFour-image-topc img,
+    .homepageFour-image-bottomc img {
+      width: 100px !important;
+      max-width: 80vw;
+    }
+    .homepageFour-para-conatiner {
+      width: 100vw !important;
+      padding: 20px 20px;
+    }
+    .homepageFour-para-conatiner h3 {
+      font-size: 1rem !important;
+    }
+  }
+  @media (max-width: 500px) {
+    .homepageFour-image-topc img,
+    .homepageFour-image-bottomc img {
+      /* max-width: 375px !important; */
+      width: 90% !important;
+      margin-left: 5%;
+      border-radius: 10px;
+      /* align-items: center !important; */
+      /* flex-direction: column !important; */
+    }
+    .homepageFour-image-topc,
+    .homepageFour-image-bottomc {
+      align-items: center !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      width: 100% !important;
+      /* background-color: #0f9d58; */
+    }
+  }
+  .homepagefive-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  margin-bottom: 40px;
+}
+
+.homepagefive-image-container {
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* ✅ Overlay effect */
+.homepagefive-text-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* black with 0.8 opacity */
+  border-radius: 20px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* ✅ Background image + content */
+.homepagefive-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('assets/img/vue-mk-header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: 400px;
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+.text-overlay-fivecontainer {
+  z-index: 9999;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-overlay-fivecontainer h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.text-overlay-fivecontainer p {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.location-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 200px;
+  color: #344767;
+}
+.location-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.location-inner-container img {
+  width: 100px;
+}
+.location-heading{
+    font-size: 25px;
+    font-weight: 700;
+}
+.locationimage_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    margin-top: 20px;
+}
+.hompage_last_container{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #344767; */
+}
+.lastcontent-container{
+    width: 80% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastcontainer-text h3{
+    color: #344767;
+    font-size: 25px;
+    font-weight: 700 ;
+}
+.lastcontainer-text p{
+    color: grey
+}
+.lastcontainer-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.lastcontainer-buttons button{
+    border: none;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 5px;
+}
+.button-one{
+    background-color: blue;
+}
+.button-two{
+    background-color: purple;
+}
+.button-three{
+    background-color: red;
+}
+@media (max-width: 900px) {
+  .homepagefive-image-container {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  .homepagefive-text-container {
+    height: auto !important;
+    min-height: 220px;
+    padding: 1rem !important;
+  }
+  .text-overlay-fivecontainer {
+    width: 100% !important;
+    max-width: 98vw;
+    padding: 0 8px;
+  }
+  .text-overlay-fivecontainer h3 {
+    font-size: 1.2rem !important;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .text-overlay-fivecontainer p {
+    font-size: 1rem !important;
+    margin-bottom: 16px;
+  }
+  .location-container {
+    height: auto !important;
+    padding: 18px 0;
+  }
+  .locationimage_div {
+    width: 100% !important;
+    gap: 18px;
+    justify-content: center !important;
+  }
+  .location-inner-container img {
+    width: 70px !important;
+  }
+  .hompage_last_container {
+    padding: 18px 0;
+  }
+  .lastcontent-container {
+    width: 98% !important;
+    flex-direction: column !important;
+    gap: 18px;
+    align-items: flex-start !important;
+  }
+  .lastcontainer-buttons {
+    width: 100%;
+    justify-content: flex-start !important;
+    gap: 10px;
+  }
+  .lastcontainer-buttons button {
+    width: 90px !important;
+    font-size: 1rem !important;
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 600px) {
+  .homepagefive-text-container {
+    padding: 0.5rem !important;
+    min-height: 120px;
+  }
+  .text-overlay-fivecontainer {
+    padding: 0 4px;
+  }
+  .text-overlay-fivecontainer h3 {
+    font-size: 1rem !important;
+  }
+  .text-overlay-fivecontainer p {
+    font-size: 0.95rem !important;
+  }
+  .location-heading {
+    font-size: 1rem !important;
+  }
+  .location-inner-container img {
+    width: 48px !important;
+  }
+  .lastcontainer-text h3 {
+    font-size: 1rem !important;
+  }
+  .lastcontainer-buttons button {
+    width: 70px !important;
+    font-size: 0.95rem !important;
+    padding: 4px 0;
+  }
+}
+
+  /*footer style*/
+
+  .footer-conatiner {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-top: 50px 20px;
+    margin-top: 20px;
+  }
+  .footer-conatiner img {
+    width: 100px;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+  }
+  .footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  .footer-links a:hover {
+    color: #0f9d58;
+  }
+  .disclamer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 900px) {
+    .footer-conatiner {
+      flex-direction: column !important;
+      gap: 24px;
+      padding-top: 30px !important;
+      align-items: flex-start !important;
+    }
+    .footer-links {
+      width: 100% !important;
+      justify-content: flex-start !important;
+      gap: 18px;
+      padding-left: 12px;
+      flex-wrap: wrap;
+    }
+    .footer-conatiner img {
+      width: 80px !important;
+      margin-bottom: 12px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .footer-conatiner {
+      gap: 14px;
+      padding-top: 18px !important;
+    }
+    .footer-links {
+      gap: 30px;
+      padding-left: 14px;
+      font-size: 0.95rem;
+      flex-direction: row !important;
+      align-items: center !important;
+    }
+    .footer-conatiner img {
+      width: 60px !important;
+      margin-left: 10px;
+    }
+    .disclamer p {
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 0 4px;
+    }
+  }
+
+  /*navbar*/
+
+  .NavBar-Container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: whitesmoke;
+    z-index: 99999999;
+    position: relative;
+  }
+  .navBar-logo-container {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navBar-logo {
+    width: 125px;
+  }
+  .navBar-links {
+    width: 600px;
+    transition: right 0.3s;
+    position: static;
+  }
+  .navBar-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navBar-links-container h6 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .navBar-links-container h6:hover {
+    color: #0f9d58;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: #0f9d58;
+  }
+
+  /* Hamburger styles */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .hamburger .bar {
+    width: 28px;
+    height: 3px;
+    background: #344767;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.4s;
+  }
+  .hamburger.open .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.open .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* Responsive styles */
+  @media (max-width: 900px) {
+    .NavBar-Container {
+      justify-content: space-between;
+      padding: 0 10px;
+    }
+    .navBar-logo-container {
+      width: auto;
+    }
+    .navBar-links {
+      position: absolute;
+      top: 70px;
+      right: -100vw;
+      width: 100vw;
+      background: whitesmoke;
+      transition: right 0.3s;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+      z-index: 99;
+      height: calc(100vh - 70px);
+      display: none;
+      flex-direction: column;
+      padding-top: 24px;
+    }
+    .navBar-links.open {
+      right: 0;
+      display: flex;
+    }
+    .navBar-links-container {
+      flex-direction: column;
+      width: 100%;
+      align-items: flex-start;
+      gap: 24px;
+      padding-left: 24px;
+    }
+    .navBar-links-container h6 {
+      font-size: 18px;
+      padding: 8px 0;
+    }
+    .hamburger {
+      display: flex;
+    }
+  }
+</style>
+
+<script>
+  // Simple toggle for mobile menu
+  const menuBtn = document.getElementById("menuBtn");
+  const navLinks = document.getElementById("navLinks");
+
+  menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+    menuBtn.classList.toggle("open");
+  });
+</script>
