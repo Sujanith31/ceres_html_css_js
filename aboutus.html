@@ -18,7 +18,7 @@
     <div class="navBar-links-container">
       <a href="ourstory.html"><h6>Our Story</h6></a>
       <a href="aboutus.html"><h6>About us</h6></a>
-      <a href="contact-us.html"><h6>Contact Us</h6></a>
+      <a href="contact-us.html"><h6>Contact</h6></a>
       <a href="blog.html"><h6>Blog</h6></a>
     </div>
   </div>
@@ -103,7 +103,7 @@
   </section>
   <section>
     <div class="container closing-image mt-sm-5">
-      <img :src="MET" alt="" class="pb-6" />
+      <img src="assets/img/METChart.jpg" alt="" class="pb-6" />
     </div>
   </section>
   <section class="aboutus-fourcards-container">
@@ -150,7 +150,7 @@
       <div class="aboutus-imagecard-container">
         <div class="aboutus-card">
           <img
-            src="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+            src="assets/img/moreinsight.avif"
             alt=""
           />
           <h3>Get insights on Search</h3>
@@ -233,7 +233,7 @@
         </div>
       </div>
       <div class="image-container">
-        <img :src="laptop" alt="" />
+        <img src="assets/img/macbookb.jpg" alt="" />
       </div>
     </div>
   </section>
@@ -246,7 +246,7 @@
     <div class="footer-links">
       <a href="ourstory.html"><h6>Our Story</h6></a>
       <a href="aboutus.html"><h6>About us</h6></a>
-      <a href="contact-us.html"><h6>Contact Us</h6></a>
+      <a href="contact-us.html"><h6>Contact</h6></a>
       <a href="blog.html"><h6>Blog</h6></a>
     </div>
   </div>
@@ -258,6 +258,23 @@
 </body>
 </html>
   <style>
+    
+    body{
+      background-color: whitesmoke;
+      overflow-x: hidden;
+    }
+
+    .closing-image{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .closing-image img{
+      /* margin: 20px 0px; */
+      width: 80%;
+    }
 
     .NavBar-Container {
   width: 100%;
@@ -739,7 +756,7 @@ a:hover {
     min-width: 0 !important;
   }
   .closing-image img{
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
     width: 80%;
   }
   .closing-image{
